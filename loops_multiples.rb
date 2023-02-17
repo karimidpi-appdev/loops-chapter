@@ -18,4 +18,10 @@
 # 20
 
 p "Enter a number:"
+answer = gets.chomp.to_i
+multiple  = 1
 
+while multiple <= 10
+p answer * multiple
+multiple += 1
+end
